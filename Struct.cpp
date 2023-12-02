@@ -1,4 +1,6 @@
 #include "Struct.h"
+#include <mutex>
+#include <iostream>
 
 int Calc :: GetField1() {
 	return field1;
