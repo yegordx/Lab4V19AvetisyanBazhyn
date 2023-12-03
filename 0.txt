@@ -1,0 +1,33 @@
+read 0
+write 0 2
+read 0
+read 0
+write 1 23
+write 0 6
+write 1 0
+write 1 12
+write 1 16
+string
+write 1 1
+read 0
+string
+read 1
+string
+write 0 19
+read 0
+read 0
+write 0 17
+read 1
+read 1
+write 1 5
+read 1
+read 0
+read 0
+read 1
+write 1 25
+string
+read 0
+write 1 19
+write 1 17
+read 0
+write 1 4
