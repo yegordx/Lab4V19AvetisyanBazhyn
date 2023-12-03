@@ -5,4 +5,4 @@ project(prog)
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-add_executable(prog main.cpp Struct.cpp Struct.h)
+add_executable(prog Lab4V19AvetisyanBazhyn.cpp Struct.cpp Struct.h)
