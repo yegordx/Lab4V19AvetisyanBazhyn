@@ -9,11 +9,11 @@ private:
 	int field2;
 	mutable shared_mutex myMutex;
 public:
-	int GetField1();
-	void SetField1(int value);
+	int GetField1() const;
+	void SetField1(const int& value);
 
-	int GetField2();
-	void SetField2(int value);
+	int GetField2() const;
+	void SetField2(const int& value);
 
 	operator std::string() const;
 

@@ -1,18 +1,16 @@
 #include "Struct.h"
-#include <mutex>
-#include <iostream>
 
-int Calc :: GetField1() {
+int Calc :: GetField1() const {
 	return field1;
 }
 
-void Calc :: SetField1(int value) {
+void Calc :: SetField1(const int& value) {
 	field1 = value;
 }
-int Calc :: GetField2() {
+int Calc :: GetField2() const {
 	return field2;
 }
-void Calc :: SetField2(int value) {
+void Calc :: SetField2(const int& value) {
 	field2 = value;
 }
 Calc::Calc() {
